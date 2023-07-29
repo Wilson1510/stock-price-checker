@@ -6,7 +6,6 @@ from tkinter import messagebox
 def get_stock_price():
     symbol = entry.get()
 
-    # Ganti `YOUR_API_KEY` dengan kunci API Anda dari Alpha Vantage
     api_key = 'UNLTAYZBWWUVUHO7'
     base_url = 'https://www.alphavantage.co/query'
 
